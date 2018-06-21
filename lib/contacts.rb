@@ -34,5 +34,6 @@ def remove_strawberry(contacts)
         value.delete_if {|cream|
         cream == "strawberry"}
       end
+      end
     end
 end
